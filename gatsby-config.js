@@ -32,7 +32,7 @@ try {
 
 if (
     process.env.NODE_ENV === `production` &&
-    config.siteUrl === `https:blog.onioneducation.com` &&
+    config.siteUrl === `https://bejewelled-ganache-cda1c2.netlify.app` &&
     !process.env.SITEURL
 ) {
     throw new Error(
